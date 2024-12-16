@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIMPLE :: Реализация макета Figma</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="inner">
+      <img class="logo" src="img/logo.svg" alt="Логотип SIMPLE">
+      <nav class="nav_menu">
+        <ul class="nav_list">
+          <li class="nav_item"><a class="txt_btn_plain" href="#">Продукция</a></li>
+          <li class="nav_item"><a class="txt_btn_plain" href="#">Материалы</a></li>
+          <li class="nav_item"><a class="txt_btn_plain" href="#">О нас</a></li>
+          <li class="nav_item"><a class="txt_btn_plain" href="#">Контакты</a></li>
+          <li class="nav_item"><a class="search" href="#"></a></li>
+          <li class="nav_item"><a class="login" href="#"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="intro" class="main-block">
+      <div class="inner">
+        <h1>Простые вещи. Из бумаги</h1>
+        <p class="description">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) —
+          волокнистый материал с минеральными добавками. </p>
+        <a class="btn" href="#">Каталог</a>
+      </div>
+    </section>
+
+    <div id="about" class="main-block">
+      <div class="inner">
+        <section class="examples">
+          <figure class="card">
+            <img src="img/cards1.png" alt="Карточки v.1">
+            <figcaption>
+              <h4>V.1</h4>
+              <p class="description">Результат вашего обучения</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="img/cards2.png" alt="Карточки v.2">
+            <figcaption>
+              <h4>V.2</h4>
+              <p class="description">Результат вашего обучения</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="img/cards3.png" alt="Карточки v.3">
+            <figcaption>
+              <h4>V.3</h4>
+              <p class="description">Результат вашего обучения</p>
+            </figcaption>
+          </figure>
+        </section>
+        <picture>
+          <source srcset="img/folder-large.png" media="(min-width: 1110px)">
+          <img src="img/folder-small.png" alt="Пачка бумаги">
+        </picture>
+        <h2>Максимальная белизна</h2>
+        <p class="description">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые
+          минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
+        </p>
+        <p class="description">Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой
+          является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+      </div>
+    </div>
+
+    <section id="products" class="main-block">
+      <div class="inner">
+        <div class="product">
+          <img class="product-img" src="img/prod1.jpg" alt="">
+          <h3>Упаковка</h3>
+          <p class="desc_secondary">Тираж: от 50 штук</p>
+          <p class="description">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы
+            и расцветки,
+            изготовим форму под заказ.</p>
+          <a class="txt_btn_arrow" href="#">Подробнее</a>
+        </div>
+        <div class="product">
+          <img class="product-img" src="img/prod2.jpg" alt="">
+          <h3>Пакеты</h3>
+          <p class="desc_secondary">Тираж: от 200 штук</p>
+          <p class="description">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага.
+            Различные расцветки и дизайн.</p>
+          <a class="txt_btn_arrow" href="#">Подробнее</a>
+        </div>
+        <div class="product">
+          <img class="product-img" src="img/prod3.jpg" alt="">
+          <h3>Кейсы</h3>
+          <p class="desc_secondary">Тираж: от 30 штук</p>
+          <p class="description">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность.
+            Материал: прессованная бумага.</p>
+          <a class="txt_btn_arrow" href="#">Подробнее</a>
+        </div>
+        <div class="product">
+          <img class="product-img" src="img/prod4.jpg" alt="">
+          <h3>Другие изделия</h3>
+          <p class="desc_secondary">Тираж: от 100 штук</p>
+          <p class="description">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций.
+            Изготовим в кратчайшие сроки.</p>
+          <a class="txt_btn_arrow" href="#">Подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands" class="main-block">
+      <div class="inner">
+        <img class="brand" src="img/hahnemuehle-logo.png" alt="Hahnemühle">
+        <img class="brand" src="img/canson-logo.png" alt="Canson">
+        <img class="brand" src="img/royal-talens-logo.png" alt="Royal Talens">
+        <img class="brand" src="img/fabriano-logo.png" alt="Fabriano">
+      </div>
+    </section>
+
+    <section id="featured" class="main-block">
+      <div class="inner">
+        <h2>Simple скетчбук</h2>
+        <p class="description">80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для графики и для
+          акварели. Для самых смелых творческих замыслов!</p>
+        <a class="btn">Купить</a>
+        <img class="featured-img" src="img/sketchbook.png" alt="Скетчбук">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <img class="logo" src="img/logo.svg" alt="Логотип SIMPLE">
+      <ul class="socials">
+        <li class="socials-item facebook"></li>
+        <li class="socials-item twitter"></li>
+        <li class="socials-item instagram"></li>
+        <li class="socials-item youtube"></li>
+      </ul>
+    </div>
+    <div class="copyright">SIMPLE® 2021</div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"),
+    url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+  font-weight: 400 500;
+}
+
+* {  
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #ebebeb;
+}
+
+.txt_btn_plain {
+  padding: 5px;
+  color: #4c5866;
+  font-size: 20px;
+  background: transparent;
+}
+
+.txt_btn_plain:hover {
+  color: #7875fe;
+}
+
+.txt_btn_plain:focus {
+  background-color: #dad9fb;
+}
+
+.txt_btn_plain:active {
+  color: #4946b4;
+}
+
+.txt_btn_arrow {
+  display: inline-block;
+  padding: 4px;
+  font-size: 20px;
+  color: #7875fe;
+}
+
+.txt_btn_arrow::after{
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  margin-left: 5px;
+  background-image: url("arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: "";  
+}
+
+.txt_btn_arrow:hover {
+  color: #4946b4;
+}
+
+.txt_btn_arrow:hover::after {
+  background-image: url("arrow_hover.svg");
+}
+
+.txt_btn_arrow:focus {
+  background-color: #dad9fb;
+}
+
+.txt_btn_arrow:active {
+  color: #4946b4;
+}
+
+.txt_btn_arrow:active::after {
+  width: 27px;
+  background-image: url("arrow_active.svg");
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 50px;
+  color: #7875fe;
+  font-size: 20px;
+  background: #ffffff;
+  border: 1px solid #7875fe;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #7875fe;
+}
+
+.btn:focus {
+  background-color: #dad9fb;
+}
+
+.btn:active {
+  color:#ffffff;
+  background-color: #4946b4;
+  border-color: #4946b4;
+}
+
+.escape {}
+
+.escape:hover {}
+
+.escape:focus {}
+
+.escape:active {}
+
+
+.header {
+  width: 100%;
+  min-width: 1130px;
+  height: 80px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.inner {
+  width: 1130px;
+  margin: 0 auto;
+  padding: 90px 15px;
+}
+
+.header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.header .logo {
+  height: 22px;
+}
+
+.nav_item {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.nav_item:first-child{
+  margin-left: 0;
+}
+
+
+.main-block:nth-child(odd) {
+  background-color: #ffffff;
+}
