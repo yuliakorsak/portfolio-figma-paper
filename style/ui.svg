@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.img { display: none }
+.img:target { display: inline }
+</style>
+</defs>
+<svg width="21" height="15" viewBox="0 0 21 15" fill="none">
+<g id="arrow" class="img">
+<path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875fe"/></g>
+<g id="arrow_hover" class="img"><path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#4946b4"/></g>
+</svg>
+<svg width="28" height="15" viewBox="0 0 28 15" fill="none">
+<g id="arrow_active" class="img">
+<path d="M27.7071 8.20711C28.0976 7.81658 28.0976 7.18342 27.7071 6.79289L21.3431 0.428932C20.9526 0.0384078 20.3195 0.0384078 19.9289 0.428932C19.5384 0.819457 19.5384 1.45262 19.9289 1.84315L25.5858 7.5L19.9289 13.1569C19.5384 13.5474 19.5384 14.1805 19.9289 14.5711C20.3195 14.9616 20.9526 14.9616 21.3431 14.5711L27.7071 8.20711ZM0 8.5H27V6.5H0V8.5Z" fill="#4946b4"/></g>
+</svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<g id="login" class="img">
+<path d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15" stroke="#4c5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 17L15 12L10 7" stroke="#4c5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 12H3" stroke="#4c5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="login_hover" class="img">
+<path d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15" stroke="#7875fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 17L15 12L10 7" stroke="#7875fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 12H3" stroke="#7875fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="login_active" class="img">
+<path d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15" stroke="#4946b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 17L15 12L10 7" stroke="#4946b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 12H3" stroke="#4946b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="search" class="img">
+<path d="M13 19C8.58172 19 5 15.4183 5 11C5 6.58172 8.58172 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z" stroke="#4c5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.0001 21L7.3501 16.65" stroke="#4c5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="search_hover" class="img">
+<path d="M13 19C8.58172 19 5 15.4183 5 11C5 6.58172 8.58172 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z" stroke="#7875fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.0001 21L7.3501 16.65" stroke="#7875fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="search_active" class="img">
+<path d="M13 19C8.58172 19 5 15.4183 5 11C5 6.58172 8.58172 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z" stroke="#4946b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.0001 21L7.3501 16.65" stroke="#4946b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="escape" class="img">
+<circle cx="8" cy="8" r="8" fill="#d1d1e5"/>
+<path d="M5.99961 10.35L10.3496 6" stroke="#4c5866" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.35 10.35L6 6" stroke="#4c5866" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="escape_hover" class="img">
+<circle cx="8" cy="8" r="8" fill="#7875fe"/>
+<path d="M5.99961 10.35L10.3496 6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.35 10.35L6 6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="escape_focus" class="img">
+<circle cx="8" cy="8" r="7.5" fill="#dad9fb" stroke="#7875fe"/>
+<path d="M5.99961 10.35L10.3496 6" stroke="#4c5866" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.35 10.35L6 6" stroke="#4c5866" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="escape_active" class="img">
+<circle cx="8" cy="8" r="8" fill="#4946b4"/>
+<path d="M5.99961 10.35L10.3496 6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.35 10.35L6 6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+</svg>
