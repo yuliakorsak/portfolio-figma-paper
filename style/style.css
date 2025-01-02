@@ -10,21 +10,6 @@ a {
   cursor: pointer;
 }
 
-picture {
-  line-height: 0;
-}
-
-p,
-ul,
-figure {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
 h1, h2, h3 {
   font-weight: 400;
 }
@@ -41,7 +26,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   font-size: 40px;
   line-height: 1;
 }
@@ -57,6 +42,25 @@ h4 {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
+}
+
+picture {
+  line-height: 0;
+}
+
+p,
+ul,
+figure {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+sub, sup {
+  font-size: 60%;
 }
 
 body {
@@ -142,20 +146,20 @@ body {
 }
 
 .search {
-  background-image: url("ui.svg#search");
+  background-image: url("../img/ui.svg#search");
 }
 
 .search:hover {
-  background-image: url("ui.svg#search_hover");
+  background-image: url("../img/ui.svg#search_hover");
 }
 
 .search:focus {
-  background-image: url("ui.svg#search_hover");
+  background-image: url("../img/ui.svg#search_hover");
   background-color: #dad9fb;
 }
 
 .search:active {
-  background-image: url("ui.svg#search_active");
+  background-image: url("../img/ui.svg#search_active");
   background-color: transparent;
 }
 
@@ -197,7 +201,7 @@ body {
   width: 16px;
   height: 16px;
   border: none;
-  background-image: url("ui.svg#escape");
+  background-image: url("../img/ui.svg#escape");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,15 +209,15 @@ body {
 }
 
 .escape:hover {
-  background-image: url("ui.svg#escape_hover");
+  background-image: url("../img/ui.svg#escape_hover");
 }
 
 .escape:focus {
-  background-image: url("ui.svg#escape_focus");
+  background-image: url("../img/ui.svg#escape_focus");
 }
 
 .escape:active {
-  background-image: url("ui.svg#escape_active");
+  background-image: url("../img/ui.svg#escape_active");
 }
 
 #search_form .escape {
@@ -223,20 +227,20 @@ body {
 }
 
 .login {
-  background-image: url("ui.svg#login");
+  background-image: url("../img/ui.svg#login");
 }
 
 .login:hover {
-  background-image: url("ui.svg#login_hover");
+  background-image: url("../img/ui.svg#login_hover");
 }
 
 .login:focus {
-  background-image: url("ui.svg#login_hover");
+  background-image: url("../img/ui.svg#login_hover");
   background-color: #dad9fb;
 }
 
 .login:active {
-  background-image: url("ui.svg#login_active");
+  background-image: url("../img/ui.svg#login_active");
   background-color: transparent;
 }
 
@@ -295,6 +299,10 @@ body {
   padding-bottom: 90px;
 }
 
+.examples .description {
+  line-height: 1.5;
+}
+
 .card {
   display: flex;
   align-items: center;
@@ -325,7 +333,7 @@ body {
 }
 
 .paragraph {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 #products .inner {
@@ -369,7 +377,7 @@ body {
   width: 21px;
   height: 15px;
   margin-left: 5px;
-  background-image: url("ui.svg#arrow");
+  background-image: url("../img/ui.svg#arrow");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -381,7 +389,7 @@ body {
 }
 
 .txt_btn_arrow:hover::after {
-  background-image: url("ui.svg#arrow_hover");
+  background-image: url("../img/ui.svg#arrow_hover");
 }
 
 .txt_btn_arrow:focus {
@@ -394,7 +402,7 @@ body {
 
 .txt_btn_arrow:active::after {
   width: 28px;
-  background-image: url("ui.svg#arrow_active");
+  background-image: url("../img/ui.svg#arrow_active");
 }
 
 .brands_list {
