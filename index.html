@@ -14,17 +14,23 @@
     <div class="inner">
       <img class="logo" src="img/logo.svg#logo" alt="Логотип SIMPLE">
       <nav class="nav_menu">
-        <ul class="nav_list">
+        <button type="button" class="nav_open-list" onclick="openMenu()"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="nav_list nav_text-block">
+          <li class="nav_item nav_close-list" onclick="closeMenu()"><span class="visually-hidden">Закрыть меню</span></li>
           <li class="nav_item"><a class="txt_btn_plain" href="#">Продукция</a></li>
           <li class="nav_item"><a class="txt_btn_plain" href="#">Материалы</a></li>
           <li class="nav_item"><a class="txt_btn_plain" href="#">О нас</a></li>
           <li class="nav_item"><a class="txt_btn_plain" href="#">Контакты</a></li>
-          <li class="nav_item nav_icon-block"><a class="search" href="#"><span class="visually-hidden">Поиск</span></a>
+        </ul>
+        <ul class="nav_list nav_icon-block">
+          <li class="nav_item"><a class="search" href="#"><span class="visually-hidden">Поиск</span></a>
             <form id="search_form" class="hidden">
               <button class="search" type="submit"></button>
               <input class="search_input" placeholder="Найти" required>
               <button type="button" class="escape" onclick="hideSearch()"></button>
             </form>
+          </li>
+          <li class="nav_item">
             <a class="login" href="#"><span class="visually-hidden">Войти в аккаунт</span></a>
           </li>
         </ul>
@@ -35,9 +41,9 @@
   <main class="main">
     <section id="intro" class="main-block">
       <div class="inner">
-        <h1>Простые вещи. Из бумаги</h1>
+        <h1>Простые вещи. Из бумаги</h1>
         <p class="description">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) —
-          волокнистый материал с минеральными добавками. </p>
+          волокнистый материал с минеральными добавками. </p>
         <a class="btn" href="#">Каталог</a>
       </div>
     </section>
@@ -69,7 +75,7 @@
         </section>
         <article class="article">
           <picture>
-            <source srcset="img/folder-large.png" media="(min-width: 1110px)">
+            <source srcset="img/folder-large.png" media="(min-width: 689px)">
             <img src="img/folder-small.png" alt="Пачка бумаги">
           </picture>
           <div class="column">
@@ -136,7 +142,8 @@
       <div class="inner">
         <div class="column">
           <h2>Simple скетчбук</h2>
-          <p class="description">80 листов, твердая обложка, бумага Fabriano 200 г/м<sup>2</sup>. Подойдет и для графики и для
+          <p class="description">80 листов, твердая обложка, бумага Fabriano 200 г/м<sup>2</sup>. Подойдет и для графики
+            и для
             акварели. Для самых смелых творческих замыслов!</p>
           <a class="btn" href="#">Купить</a>
         </div>
@@ -158,6 +165,6 @@
     <div class="copyright">SIMPLE® 2021</div>
   </footer>
 </body>
-<script src="js/searchbar.js"></script>
+<script src="js/header_scripts.js"></script>
 
 </html>
